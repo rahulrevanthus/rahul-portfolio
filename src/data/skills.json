@@ -1,0 +1,67 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "skills/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "skills/css.png"
+    },
+    {
+       "title": "JS",
+      "imageSrc": "skills/jsIcon.png"
+    },
+    {
+      "title": "Jquery",
+      "imageSrc": "skills/jquerIcon.png"
+    },
+    {
+      "title": "JSON",
+      "imageSrc": "skills/jsonIcon.png"
+    },
+    {
+      "title": "Bootstrap",
+      "imageSrc": "skills/bootstrapIcon.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "skills/react.png"
+    },
+    {
+      "title": "REDUX",
+    "imageSrc": "skills/reduxIcon.png"
+  },
+    {
+      "title": "GraphQL",
+      "imageSrc": "skills/graphql.png"
+    },
+    {
+      "title": "Node",
+      "imageSrc": "skills/node.png"
+    },
+    {
+      "title": "Express JS",
+      "imageSrc": "skills/expressJsIcon.png"
+    },
+    {
+      "title": "MongoDB",
+      "imageSrc": "skills/mongodb.png"
+    },
+    {
+      "title": "SQL",
+      "imageSrc": "skills/sqlIcon.png"
+    },
+    {
+      "title": "PHP",
+      "imageSrc": "skills/phpIcon.png"
+    },
+    {
+      "title": "Java",
+      "imageSrc": "skills/javaIcon.png"
+    },
+    
+    {
+      "title": "Python",
+      "imageSrc": "skills/pythonIcon.png"
+    }
+  ]
