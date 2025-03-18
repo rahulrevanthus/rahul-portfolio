@@ -28,7 +28,7 @@ export const Navbar = () => {
             <a href="#contact">Contact</a>
           </li>
           <li>
-            <a href="Portfolio/react-portfolio/public/RAHUL (Full Stack) (Resume).pdf" download="RAHUL (Full Stack) (Resume).pdf">
+            <a href="Portfolio/react-portfolio/public/resume.pdf" download="resume.pdf">
               Resume
             </a>
           </li>
