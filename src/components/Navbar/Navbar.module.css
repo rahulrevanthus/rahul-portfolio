@@ -33,6 +33,35 @@
   text-decoration: none;
 }
 
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contactWidget {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease;
+}
+
+.contactItem:hover .contactWidget {
+  transform: scale(1.1);
+}
+
+/* Optional: Style Resume link */
+.menuItems a[href="/resume.pdf"] {
+  background: var(--color-primary);
+  padding: 5px 15px;
+  border-radius: 20px;
+  color: var(--color-text);
+  transition: background 0.3s ease;
+}
+
+.menuItems a[href="/resume.pdf"]:hover {
+  background: var(--color-secondary);
+}
+
 @media screen and (max-width: 830px) {
   .navbar {
     flex-direction: column;
@@ -61,11 +90,7 @@
     gap: 13px;
     border-radius: 10px;
     background: rgb(25, 55, 109);
-    background: linear-gradient(
-      0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 109, 1) 100%
-    );
+    background: linear-gradient(0deg, rgba(25, 55, 109, 0.2) 0%, rgba(25, 55, 109, 1) 100%);
     padding: 24px 33px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
   }
@@ -73,5 +98,10 @@
   .menuOpen {
     display: flex;
     z-index: 1;
+  }
+
+  .contactItem {
+    flex-direction: column;
+    gap: 5px;
   }
 }

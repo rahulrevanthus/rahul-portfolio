@@ -1,67 +1,77 @@
 [
-    {
-      "title": "HTML",
-      "imageSrc": "skills/html.png"
-    },
-    {
-      "title": "CSS",
-      "imageSrc": "skills/css.png"
-    },
-    {
-       "title": "JS",
-      "imageSrc": "skills/jsIcon.png"
-    },
-    {
-      "title": "Jquery",
-      "imageSrc": "skills/jquerIcon.png"
-    },
-    {
-      "title": "JSON",
-      "imageSrc": "skills/jsonIcon.png"
-    },
-    {
-      "title": "Bootstrap",
-      "imageSrc": "skills/bootstrapIcon.png"
-    },
-    {
-      "title": "React",
-      "imageSrc": "skills/react.png"
-    },
-    {
-      "title": "REDUX",
-    "imageSrc": "skills/reduxIcon.png"
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
   },
-    {
-      "title": "GraphQL",
-      "imageSrc": "skills/graphql.png"
-    },
-    {
-      "title": "Node",
-      "imageSrc": "skills/node.png"
-    },
-    {
-      "title": "Express JS",
-      "imageSrc": "skills/expressJsIcon.png"
-    },
-    {
-      "title": "MongoDB",
-      "imageSrc": "skills/mongodb.png"
-    },
-    {
-      "title": "SQL",
-      "imageSrc": "skills/sqlIcon.png"
-    },
-    {
-      "title": "PHP",
-      "imageSrc": "skills/phpIcon.png"
-    },
-    {
-      "title": "Java",
-      "imageSrc": "skills/javaIcon.png"
-    },
-    
-    {
-      "title": "Python",
-      "imageSrc": "skills/pythonIcon.png"
-    }
-  ]
+  {
+    "title": "Tailwind CSS",
+    "imageSrc": "skills/tailwind.png"
+  },
+  {
+    "title": "JS",
+    "imageSrc": "skills/jsIcon.png"
+  },
+  {
+    "title": "React.js",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "skills/typescript.png"
+  },
+ 
+  {
+    "title": "WebSockets",
+    "imageSrc": "skills/websockets.png"
+  },
+  {
+    "title": "Node.js",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "Express.js",
+    "imageSrc": "skills/expressJsIcon.png"
+  },
+  {
+    "title": "Spring Boot",
+    "imageSrc": "skills/springboot.png"
+  },
+  {
+    "title": "Hibernate",
+    "imageSrc": "skills/hibernate.png"
+  },
+  {
+    "title": "GraphQL",
+    "imageSrc": "skills/graphql.png"
+  },
+  {
+    "title": "REST API",
+    "imageSrc": "skills/restapi.png"
+  },
+  {
+    "title": "RabbitMQ",
+    "imageSrc": "skills/RabbitMQ.png"
+  },
+  {
+    "title": "Kafka",
+    "imageSrc": "skills/kafka.png"
+  },
+
+  {
+    "title": "PostgreSQL",
+    "imageSrc": "skills/sql.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },
+ 
+  {
+    "title": "AWS Fargate",
+    "imageSrc": "skills/Fargate.png"
+  },
+  {
+    "title": "AWS Lambda",
+    "imageSrc": "skills/aws-lambda.png"
+  }
+]

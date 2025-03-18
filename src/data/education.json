@@ -1,0 +1,18 @@
+[
+  {
+    "degree": "Master of Science in Computer Science",
+    "university": "University of Central Missouri",
+    "startDate": "Aug, 2023",
+    "endDate": "Dec, 2024",
+    "imageSrc": "education/ucm.png",
+    "website": "https://www.ucmo.edu/"
+  },
+  {
+    "degree": "Bachelor of Engineering in Electronics and Communication",
+    "university": "Presidency University",
+    "startDate": "Aug, 2018",
+    "endDate": "Jun, 2022",
+    "imageSrc": "education/Presidency.webp",
+    "website": "https://www.presidencyuniversity.in"
+  }
+]

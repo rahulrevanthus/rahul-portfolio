@@ -1,12 +1,10 @@
-//import React from "react";
-
 import styles from "./About.module.css";
 import { getImageUrl } from "../../utils";
 
 export const About = () => {
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>About</h2>
+      <h2 className={styles.title}>About Me</h2>
       <div className={styles.content}>
         <img
           src={getImageUrl("About/aboutImage.jpg")}
@@ -17,30 +15,27 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageUrl("About/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
+              <h3><b>Full Stack Developer</b></h3>
               <p>
-                I am a frontend developer with experience in building responsive
-                and optimized sites
+                I build <b>scalable, high-performance web applications</b> with <b>React (Next.js)</b>, <b>TypeScript</b>, and <b>Node.js</b>, specializing in <b>real-time data processing</b> and <b>microservices</b>.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("About/serverIcon.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
+              <h3>Backend & Cloud Engineer</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+                Expert in <b>GraphQL/REST APIs</b>, <b>Spring Boot</b>, and <b>event-driven systems</b> with <b>Kafka</b> and <b>RabbitMQ</b>. I deploy on <b>AWS (Fargate, Lambda)</b> and <b>Azure (AKS)</b>.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("About/uiIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
+              <h3>DevOps & Collaboration</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+                I streamline <b>CI/CD pipelines</b> with <b>Docker</b>, <b>Kubernetes</b>, and <b>GitHub Actions</b>, thriving in <b>Agile teams</b> to deliver optimized solutions.
               </p>
             </div>
           </li>

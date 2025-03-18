@@ -1,5 +1,4 @@
-import  { useState } from "react";
-
+import { useState } from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -12,16 +11,6 @@ export const Navbar = () => {
         Portfolio
       </a>
       <div className={styles.menu}>
-        <img
-          className={styles.menuBtn}
-          src={
-            menuOpen
-              ? getImageUrl("nav/closeIcon.png")
-              : getImageUrl("nav/menuIcon.png")
-          }
-          alt="menu-button"
-          onClick={() => setMenuOpen(!menuOpen)}
-        />
         <ul
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
           onClick={() => setMenuOpen(false)}
@@ -35,8 +24,13 @@ export const Navbar = () => {
           <li>
             <a href="#projects">Projects</a>
           </li>
+          <li className={styles.contactItem}>
+            <a href="#contact">Contact</a>
+          </li>
           <li>
-            <a href="#about">Contact</a>
+            <a href="Portfolio/react-portfolio/public/RAHUL (Full Stack) (Resume).pdf" download="RAHUL (Full Stack) (Resume).pdf">
+              Resume
+            </a>
           </li>
         </ul>
       </div>

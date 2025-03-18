@@ -1,26 +1,18 @@
 [
-    {
-      "title": "PORTFOLIO",
-      "imageSrc": "projects/project.png",
-      "description": "This is my Portfolio built to highlight my skills, projects, and growth as a developer.",
-      "skills": ["HTML", "CSS", "JS","REACT"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    }
-  ]
+  {
+    "title": "High-Frequency Trading (HFT) Platform",
+    "imageSrc": "projects/hft-platform.jpg",
+    "description": "Developed an interactive, high-performance trading frontend using Next.js, React, TypeScript, and WebSockets, enabling real-time order book updates and dynamic price charts. Engineered a scalable backend with Node.js, Express, and GraphQL, using microservices, FIX Protocol, and Kafka for high-speed market data processing and secure trade execution.",
+    "skills": ["Next.js", "React", "TypeScript", "WebSockets", "Node.js", "GraphQL", "Kafka", "FIX Protocol"],
+    "demo": "https://hft-platform-demo.com",
+    "source": "https://github.com/your-username/hft-platform" 
+  },
+  {
+    "title": "Multi-Tenant SaaS E-Commerce Platform",
+    "imageSrc": "projects/ecommerce-saas.jpg",
+    "description": "Designed and developed a multi-tenant SaaS e-commerce platform using Spring Boot, Hibernate, and PostgreSQL. Implemented OAuth2 authentication with Spring Security and Keycloak, and optimized microservices with RabbitMQ for asynchronous order processing, reducing API response times by 40% during peak sales events.",
+    "skills": ["Spring Boot", "Hibernate", "PostgreSQL", "RabbitMQ", "OAuth2", "Keycloak", "Microservices"],
+    "demo": "https://ecommerce-saas-demo.com",
+    "source": "https://github.com/your-username/ecommerce-saas"
+  }
+]
