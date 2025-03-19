@@ -11,16 +11,6 @@ export const Navbar = () => {
         Portfolio
       </a>
       <div className={styles.menu}>
-        <img
-          className={styles.menuBtn}
-          src={
-            menuOpen
-              ? getImageUrl("nav/closeIcon.png")
-              : getImageUrl("nav/menuIcon.png")
-          }
-          alt="menu-button"
-          onClick={() => setMenuOpen(!menuOpen)}
-        />
         <ul
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
           onClick={() => setMenuOpen(false)}
@@ -36,11 +26,7 @@ export const Navbar = () => {
           </li>
           <li className={styles.contactItem}>
             <a href="#contact">Contact</a>
-            <img
-              src={getImageUrl("nav/menuIcon.png")}
-              alt="Contact Icon"
-              className={styles.contactWidget}
-            />
+            
           </li>
           <li>
             <a href="#contact">Resume</a> {/* Redirects to Contact */}
