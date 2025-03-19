@@ -5,11 +5,13 @@
   align-items: center;
   justify-content: space-between;
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
-  padding: 15px 5%;
+  padding: 8px 5%;
   position: fixed;
   top: 0;
-  width: 90%;
+  width: 100%;
+  left: 0;
   z-index: 10;
+  box-sizing: border-box;
 }
 
 .title {
@@ -17,6 +19,7 @@
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
+  margin-right: 20px; /* Gap between title and menu */
 }
 
 .menu {
@@ -25,7 +28,7 @@
 }
 
 .menuBtn {
-  display: none; /* Hidden on desktop */
+  display: none;
   width: 30px;
   height: 30px;
   cursor: pointer;
@@ -61,11 +64,18 @@
 
 /* Mobile View */
 @media screen and (max-width: 830px) {
+  .navbar {
+    padding: 10px 5%; /* Reduced padding for mobile */
+  }
+  .title {
+    font-size: 24px; /* Slightly smaller for mobile */
+    margin-right: 15px; /* Adjusted gap for mobile */
+  }
   .menuBtn {
-    display: block; /* Show hamburger icon */
+    display: block;
   }
   .menuItems {
-    display: none; /* Hidden by default */
+    display: none;
     flex-direction: column;
     position: absolute;
     top: 60px;
@@ -75,9 +85,10 @@
     padding: 20px 0;
     gap: 20px;
     text-align: center;
+    box-sizing: border-box;
   }
   .menuOpen {
-    display: flex; /* Show when toggled */
+    display: flex;
   }
   .menuItems li a {
     font-size: 20px;
