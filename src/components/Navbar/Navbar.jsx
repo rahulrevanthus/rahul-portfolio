@@ -42,10 +42,14 @@ export const Navbar = () => {
               className={styles.contactWidget}
             />
           </li>
+<<<<<<< HEAD
           <li>
             <a href="#contact">Resume</a> {/* Changed to redirect to Contact */}
           </li>
         </ul>
+=======
+
+>>>>>>> ce0c1a45749f170a4d5187d4e0b88f2c56cc19cf
       </div>
     </nav>
   );
