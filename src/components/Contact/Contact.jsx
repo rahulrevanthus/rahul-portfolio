@@ -36,9 +36,11 @@ export const Contact = () => {
           </a>
         </li>
         <li className={styles.link}>
-  <img src={getImageUrl("Contact/downloadIcon.png")} alt="Download icon" />
-  <a href="/resume.pdf" download="Salavala_Rahul_Raju_Resume.pdf">Download Resume</a>
-</li>
+          <img src={getImageUrl("Contact/downloadIcon.png")} alt="Download icon" />
+          <a href="/resume.pdf" download="Salavala_Rahul_Raju_Resume.pdf" className={styles.downloadBtn}>
+            Download Resume
+          </a>
+        </li>
       </ul>
     </footer>
   );
