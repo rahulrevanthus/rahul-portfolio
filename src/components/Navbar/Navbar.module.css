@@ -1,13 +1,15 @@
 @import "../../vars.css";
 
 .navbar {
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 61px;
-  z-index: 2;
-  margin: 0 10%;
+  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+  padding: 15px 5%;
+  position: fixed;
+  top: 0;
+  width: 90%;
+  z-index: 10;
 }
 
 .title {
@@ -19,6 +21,14 @@
 
 .menu {
   display: flex;
+  align-items: center;
+}
+
+.menuBtn {
+  display: none; /* Hidden on desktop */
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
 }
 
 .menuItems {
@@ -27,10 +37,15 @@
   list-style: none;
 }
 
-.menuItems a {
+.menuItems li a {
   font-size: 25px;
   color: var(--color-text);
   text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.menuItems li a:hover {
+  color: var(--color-primary);
 }
 
 .contactItem {
@@ -40,68 +55,31 @@
 }
 
 .contactWidget {
-  width: 24px;
-  height: 24px;
-  transition: transform 0.3s ease;
+  width: 20px;
+  height: 20px;
 }
 
-.contactItem:hover .contactWidget {
-  transform: scale(1.1);
-}
-
-/* Optional: Style Resume link */
-.menuItems a[href="/resume.pdf"] {
-  background: var(--color-primary);
-  padding: 5px 15px;
-  border-radius: 20px;
-  color: var(--color-text);
-  transition: background 0.3s ease;
-}
-
-.menuItems a[href="/resume.pdf"]:hover {
-  background: var(--color-secondary);
-}
-
+/* Mobile View */
 @media screen and (max-width: 830px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .menu {
-    position: absolute;
-    right: 0;
-    margin-right: 10%;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 11px;
-    z-index: 3;
-  }
-
   .menuBtn {
-    display: block;
-    cursor: pointer;
+    display: block; /* Show hamburger icon */
   }
-
   .menuItems {
-    display: none;
+    display: none; /* Hidden by default */
     flex-direction: column;
-    align-items: center;
-    gap: 13px;
-    border-radius: 10px;
-    background: rgb(25, 55, 109);
-    background: linear-gradient(0deg, rgba(25, 55, 109, 0.2) 0%, rgba(25, 55, 109, 1) 100%);
-    padding: 24px 33px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+    padding: 20px 0;
+    gap: 20px;
+    text-align: center;
   }
-
   .menuOpen {
-    display: flex;
-    z-index: 1;
+    display: flex; /* Show when toggled */
   }
-
-  .contactItem {
-    flex-direction: column;
-    gap: 5px;
+  .menuItems li a {
+    font-size: 20px;
   }
 }
